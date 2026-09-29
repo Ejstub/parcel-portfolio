@@ -1,0 +1,8 @@
+tools/cache/
+*.sqlite
+node_modules/
+.DS_Store
+.handoff.md
+
+# personal deal data - never commit
+*.local.json

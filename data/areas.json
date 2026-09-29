@@ -1,0 +1,1399 @@
+{
+ "schema": "parcel.areas.v1",
+ "built": "2026-09-29",
+ "areas": [
+  {
+   "zip": "64801",
+   "name": "North & Central Joplin",
+   "population": 34753,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 37262,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 56.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 9.6,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 21.6,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 25.0,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 103100,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "PRESENT",
+     "value": 198997,
+     "source": "Zillow ZHVI (ZIP)",
+     "asOf": "2026-06",
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "B-",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Joplin Schools",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "PRESENT",
+     "value": 1013,
+     "source": "Zillow average rent (ZIP)",
+     "asOf": "2026-06",
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64804",
+   "name": "South Joplin",
+   "population": 37521,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 42143,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 66.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 8.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 22.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 16.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 109800,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "PRESENT",
+     "value": 231358,
+     "source": "Zillow ZHVI (ZIP)",
+     "asOf": "2026-06",
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "B-",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Joplin Schools",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "PRESENT",
+     "value": 1411,
+     "source": "Zillow average rent (ZIP)",
+     "asOf": "2026-01",
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64870",
+   "name": "Webb City",
+   "population": 14325,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 42156,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 65.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 10.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 19.7,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1985,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 19.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 95200,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "PRESENT",
+     "value": 227634,
+     "source": "Zillow ZHVI (ZIP)",
+     "asOf": "2026-06",
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "A-",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Webb City R-7",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64834",
+   "name": "Carl Junction",
+   "population": 9556,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 53544,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 78.3,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 6.8,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 29.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1995,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 2.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 125100,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "PRESENT",
+     "value": 259718,
+     "source": "Zillow ZHVI (ZIP)",
+     "asOf": "2026-06",
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "B",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Carl Junction R-I",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64836",
+   "name": "Carthage",
+   "population": 23940,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 38727,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 67.7,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 7.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 17.2,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 25.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 102800,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "PRESENT",
+     "value": 238842,
+     "source": "Zillow ZHVI (city of Carthage)",
+     "asOf": "2026-08",
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "B",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Carthage R-IX",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64850",
+   "name": "Neosho",
+   "population": 24063,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 40375,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 70.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 8.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 16.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 19.0,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 102600,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "PRESENT",
+     "value": 232540,
+     "source": "Zillow ZHVI (city of Neosho)",
+     "asOf": "2026-08",
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "B",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Neosho",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "PRESENT",
+     "value": 1160,
+     "source": "Zillow average rent (city of Neosho)",
+     "asOf": "2026-08",
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64855",
+   "name": "Oronogo",
+   "population": 2795,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 63452,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 85.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 5.8,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 27.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1995,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 12.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 104200,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "UNKNOWN",
+     "value": null,
+     "district": "Webb City R-7 / Carl Junction R-I (split)",
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64835",
+   "name": "Carterville",
+   "population": 1899,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 32170,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 74.4,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 7.6,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 8.6,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1965,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 36.0,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 58900,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "A-",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Webb City R-7",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64840",
+   "name": "Diamond",
+   "population": 2813,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 44219,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 82.3,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 11.3,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 17.4,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 15.2,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 118000,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "PRESENT",
+     "value": 251051,
+     "source": "Zillow ZHVI (ZIP)",
+     "asOf": "2026-06",
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "C",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Diamond R-IV",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64862",
+   "name": "Sarcoxie",
+   "population": 3337,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 37722,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 72.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 12.8,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 13.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 33.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 103800,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "UNKNOWN",
+     "value": null,
+     "district": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64832",
+   "name": "Asbury",
+   "population": 731,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 44250,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 83.3,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 7.4,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 7.7,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 19.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 92800,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "UNKNOWN",
+     "value": null,
+     "district": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64755",
+   "name": "Jasper",
+   "population": 2596,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 45766,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 76.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 14.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 17.0,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1965,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 31.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 81600,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "UNKNOWN",
+     "value": null,
+     "district": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64844",
+   "name": "Granby",
+   "population": 4680,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 36228,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 75.0,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 8.0,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 5.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 25.7,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 65000,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "UNKNOWN",
+     "value": null,
+     "district": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64865",
+   "name": "Seneca",
+   "population": 5997,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 41688,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 75.8,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 6.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 14.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 12.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 101000,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "PRESENT",
+     "value": "B-",
+     "source": "Niche district grade",
+     "asOf": "2026-09",
+     "district": "Seneca R-VII",
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64859",
+   "name": "Reeds",
+   "population": 1358,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 37917,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 82.3,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 10.4,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 14.1,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 20.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 102200,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "UNKNOWN",
+     "value": null,
+     "district": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64866",
+   "name": "Stark City",
+   "population": 1484,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 38750,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 79.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 11.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 13.8,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 27.9,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 104800,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "UNKNOWN",
+     "value": null,
+     "district": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  },
+  {
+   "zip": "64842",
+   "name": "Fairview",
+   "population": 829,
+   "facts": {
+    "income": {
+     "state": "PRESENT",
+     "value": 34514,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "ownerPct": {
+     "state": "PRESENT",
+     "value": 74.5,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "rentVacPct": {
+     "state": "PRESENT",
+     "value": 14.3,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "bachPct": {
+     "state": "PRESENT",
+     "value": 5.6,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "medYearBuilt": {
+     "state": "PRESENT",
+     "value": 1975,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "pre1950Pct": {
+     "state": "PRESENT",
+     "value": 28.4,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "censusHomeValue": {
+     "state": "PRESENT",
+     "value": 69600,
+     "source": "U.S. Census ACS 5-year via uszipcode dataset",
+     "asOf": "mid-2010s",
+     "decay": "stale-relative-only"
+    },
+    "homeValue": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Zillow ZHVI not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "schoolGrade": {
+     "state": "UNKNOWN",
+     "value": null,
+     "district": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    },
+    "avgRent": {
+     "state": "UNKNOWN",
+     "value": null,
+     "source": "Not looked up",
+     "asOf": null,
+     "decay": "annual"
+    }
+   }
+  }
+ ],
+ "tracts": [
+  {
+   "tract": "111",
+   "zip": "64801",
+   "population": 1948,
+   "income": 75833,
+   "povertyPct": 7.5,
+   "homeValue": 163700,
+   "movedPct": 14.8,
+   "bachPct": 35.4
+  },
+  {
+   "tract": "114",
+   "zip": "64870",
+   "population": 6038,
+   "income": 75649,
+   "povertyPct": 16.2,
+   "homeValue": 161400,
+   "movedPct": 16.2,
+   "bachPct": 23.6
+  },
+  {
+   "tract": "105",
+   "zip": "64804",
+   "population": 5032,
+   "income": 52583,
+   "povertyPct": 17.6,
+   "homeValue": 193200,
+   "movedPct": 17.7,
+   "bachPct": 23.7
+  },
+  {
+   "tract": "104",
+   "zip": "64801",
+   "population": 5502,
+   "income": 47439,
+   "povertyPct": 16.4,
+   "homeValue": 183200,
+   "movedPct": 20.8,
+   "bachPct": 25.9
+  },
+  {
+   "tract": "102",
+   "zip": "64801",
+   "population": 4840,
+   "income": 79535,
+   "povertyPct": 5.4,
+   "homeValue": 208700,
+   "movedPct": 11.8,
+   "bachPct": 32.6
+  },
+  {
+   "tract": "101",
+   "zip": "64801",
+   "population": 3529,
+   "income": 40569,
+   "povertyPct": 27.8,
+   "homeValue": 99300,
+   "movedPct": 17.5,
+   "bachPct": 17.2
+  }
+ ],
+ "tractSource": {
+  "source": "Census Reporter, ACS 5-year",
+  "asOf": "ACS 2024 5-year",
+  "note": "Only six tracts fetched; Census Reporter rate-limited the rest. Tracts 103, 106, 109 were renumbered in 2020."
+ }
+}

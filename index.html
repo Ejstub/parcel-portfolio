@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Parcel Portfolio</title>
+<meta name="description" content="Rental deal screening and area grades for the Joplin, MO market.">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1c1e" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Parcel">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="map" aria-label="Map of properties and area grades"></div>
+
+<!-- Floating search, like Apple Maps -->
+<form id="search" class="search glass" role="search" autocomplete="off">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+  <input id="q" type="search" placeholder="Search an address" aria-label="Search an address" enterkeyhint="search">
+  <ul id="results" class="results glass" hidden></ul>
+</form>
+
+<!-- Floating map controls -->
+<div class="fabs">
+  <div class="fabgroup glass">
+    <button type="button" id="btnLocate" aria-label="Show my location" title="My location">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 21 3l-8 18-2-8z"/></svg></button>
+    <button type="button" id="btnLayers" aria-label="Map options" title="Map options">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg></button>
+  </div>
+  <button type="button" id="btnPinHere" class="fab-primary" aria-label="Add the property where I'm standing">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><path d="M12 7v5M9.5 9.5h5"/></svg>
+    <span>Pin here</span></button>
+</div>
+
+<div id="layers" class="popover glass" hidden>
+  <h3>Map</h3>
+  <div class="seg" role="radiogroup" aria-label="Map style">
+    <button type="button" data-style="liberty" role="radio">Standard</button>
+    <button type="button" data-style="positron" role="radio">Muted</button>
+  </div>
+  <label class="toggle"><input type="checkbox" id="optGrades" checked> Area grades</label>
+  <label class="toggle"><input type="checkbox" id="optTracts" checked> Neighborhood tracts</label>
+  <label class="toggle"><input type="checkbox" id="optPins" checked> Saved properties</label>
+  <p class="fine">Tap and hold anywhere on the map to add a property there.</p>
+</div>
+
+<!-- Bottom sheet (phone) / side card (wide screens) -->
+<section id="sheet" class="sheet glass" data-detent="peek" aria-label="Details">
+  <button type="button" class="grabber" id="grabber" aria-label="Resize panel"><span></span></button>
+  <div class="sheet-body" id="sheetBody"></div>
+</section>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<input type="file" id="importFile" accept="application/json,.json" hidden>
+
+<script src="vendor/maplibre-gl.js"></script>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

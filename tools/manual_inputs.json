@@ -1,0 +1,211 @@
+{
+  "built": "2026-09-29",
+  "zips": {
+    "64801": "North & Central Joplin",
+    "64804": "South Joplin",
+    "64870": "Webb City",
+    "64834": "Carl Junction",
+    "64836": "Carthage",
+    "64850": "Neosho",
+    "64855": "Oronogo",
+    "64835": "Carterville",
+    "64840": "Diamond",
+    "64862": "Sarcoxie",
+    "64832": "Asbury",
+    "64755": "Jasper",
+    "64844": "Granby",
+    "64865": "Seneca",
+    "64859": "Reeds",
+    "64866": "Stark City",
+    "64842": "Fairview"
+  },
+  "zillowValue": {
+    "64801": {
+      "value": 198997,
+      "source": "Zillow ZHVI (ZIP)",
+      "asOf": "2026-06"
+    },
+    "64804": {
+      "value": 231358,
+      "source": "Zillow ZHVI (ZIP)",
+      "asOf": "2026-06"
+    },
+    "64834": {
+      "value": 259718,
+      "source": "Zillow ZHVI (ZIP)",
+      "asOf": "2026-06"
+    },
+    "64840": {
+      "value": 251051,
+      "source": "Zillow ZHVI (ZIP)",
+      "asOf": "2026-06"
+    },
+    "64870": {
+      "value": 227634,
+      "source": "Zillow ZHVI (ZIP)",
+      "asOf": "2026-06"
+    },
+    "64836": {
+      "value": 238842,
+      "source": "Zillow ZHVI (city of Carthage)",
+      "asOf": "2026-08"
+    },
+    "64850": {
+      "value": 232540,
+      "source": "Zillow ZHVI (city of Neosho)",
+      "asOf": "2026-08"
+    }
+  },
+  "zillowRent": {
+    "64801": {
+      "value": 1013,
+      "source": "Zillow average rent (ZIP)",
+      "asOf": "2026-06"
+    },
+    "64804": {
+      "value": 1411,
+      "source": "Zillow average rent (ZIP)",
+      "asOf": "2026-01"
+    },
+    "64850": {
+      "value": 1160,
+      "source": "Zillow average rent (city of Neosho)",
+      "asOf": "2026-08"
+    }
+  },
+  "schools": {
+    "64801": {
+      "district": "Joplin Schools",
+      "grade": "B-",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64804": {
+      "district": "Joplin Schools",
+      "grade": "B-",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64870": {
+      "district": "Webb City R-7",
+      "grade": "A-",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64835": {
+      "district": "Webb City R-7",
+      "grade": "A-",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64834": {
+      "district": "Carl Junction R-I",
+      "grade": "B",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64836": {
+      "district": "Carthage R-IX",
+      "grade": "B",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64850": {
+      "district": "Neosho",
+      "grade": "B",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64840": {
+      "district": "Diamond R-IV",
+      "grade": "C",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64865": {
+      "district": "Seneca R-VII",
+      "grade": "B-",
+      "source": "Niche district grade",
+      "asOf": "2026-09"
+    },
+    "64855": {
+      "district": "Webb City R-7 / Carl Junction R-I (split)",
+      "grade": null
+    }
+  },
+  "tractSource": {
+    "source": "Census Reporter, ACS 5-year",
+    "asOf": "ACS 2024 5-year",
+    "note": "Only six tracts fetched; Census Reporter rate-limited the rest. Tracts 103, 106, 109 were renumbered in 2020."
+  },
+  "tracts": {
+    "101": {
+      "zip": "64801",
+      "population": 3529,
+      "income": 40569,
+      "povertyPct": 27.8,
+      "homeValue": 99300,
+      "movedPct": 17.5,
+      "bachPct": 17.2
+    },
+    "102": {
+      "zip": "64801",
+      "population": 4840,
+      "income": 79535,
+      "povertyPct": 5.4,
+      "homeValue": 208700,
+      "movedPct": 11.8,
+      "bachPct": 32.6
+    },
+    "104": {
+      "zip": "64801",
+      "population": 5502,
+      "income": 47439,
+      "povertyPct": 16.4,
+      "homeValue": 183200,
+      "movedPct": 20.8,
+      "bachPct": 25.9
+    },
+    "105": {
+      "zip": "64804",
+      "population": 5032,
+      "income": 52583,
+      "povertyPct": 17.6,
+      "homeValue": 193200,
+      "movedPct": 17.7,
+      "bachPct": 23.7
+    },
+    "111": {
+      "zip": "64801",
+      "population": 1948,
+      "income": 75833,
+      "povertyPct": 7.5,
+      "homeValue": 163700,
+      "movedPct": 14.8,
+      "bachPct": 35.4
+    },
+    "114": {
+      "zip": "64870",
+      "population": 6038,
+      "income": 75649,
+      "povertyPct": 16.2,
+      "homeValue": 161400,
+      "movedPct": 16.2,
+      "bachPct": 23.6
+    }
+  },
+  "labelAt": {
+    "64804": [
+      -94.505,
+      37.047
+    ],
+    "64855": [
+      -94.468,
+      37.19
+    ],
+    "64801": [
+      -94.52,
+      37.095
+    ]
+  }
+}
