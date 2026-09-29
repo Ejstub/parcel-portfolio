@@ -389,16 +389,81 @@ async function doSearch(q) {
 
 /* Sheet drag between detents */
 (() => {
-  let startY = 0, startT = 0, dragging = false;
+  let startY = 0, startT = 0, currentY = 0, tracking = false, dragging = false;
+  let startHandle = null, pointerId = null, touchId = null;
   const detentY = () => { const h = sheet.getBoundingClientRect().height; const d = sheet.dataset.detent; return d === 'full' ? 0 : d === 'half' ? h * 0.48 : h - parseFloat(getComputedStyle(sheet).getPropertyValue('--peek')) ; };
-  const g = $('grabber');
-  g.addEventListener('pointerdown', e => { dragging = true; startY = e.clientY; startT = detentY(); sheet.classList.add('dragging'); g.setPointerCapture(e.pointerId); });
-  g.addEventListener('pointermove', e => { if (!dragging) return; const y = Math.max(0, startT + e.clientY - startY); sheet.style.transform = `translateY(${y}px)`; });
-  const end = e => { if (!dragging) return; dragging = false; sheet.classList.remove('dragging'); sheet.style.transform = '';
-    const dy = e.clientY - startY, h = sheet.getBoundingClientRect().height, y = startT + dy;
-    if (Math.abs(dy) < 6) { setDetent({ peek: 'half', half: 'full', full: 'peek' }[sheet.dataset.detent]); return; }
-    setDetent(y < h * 0.25 ? 'full' : y < h * 0.7 ? 'half' : 'peek'); };
-  g.addEventListener('pointerup', end); g.addEventListener('pointercancel', end);
+  const handleFor = target => {
+    const handle = target.closest('.grabber, .sheet-body > .hdr');
+    return handle && sheet.contains(handle) ? handle : null;
+  };
+  const begin = (handle, y, pointer = null, touch = null) => {
+    if (tracking) return;
+    tracking = true; dragging = false; startHandle = handle; startY = y; startT = detentY(); currentY = startT;
+    pointerId = pointer?.pointerId ?? null; touchId = touch?.identifier ?? null;
+  };
+  const move = (y, event = null) => {
+    if (!tracking) return;
+    if (!dragging && Math.abs(y - startY) <= 6) return;
+    if (!dragging) {
+      dragging = true; sheet.classList.add('dragging');
+      if (pointerId !== null) sheet.setPointerCapture(pointerId);
+    }
+    currentY = Math.max(0, startT + y - startY);
+    sheet.style.transform = `translateY(${currentY}px)`;
+    if (event?.cancelable) event.preventDefault();
+  };
+  const nearestDetent = y => {
+    const h = sheet.getBoundingClientRect().height;
+    const positions = { full: 0, half: h * 0.48, peek: h - parseFloat(getComputedStyle(sheet).getPropertyValue('--peek')) };
+    return Object.entries(positions).sort((a, b) => Math.abs(a[1] - y) - Math.abs(b[1] - y))[0][0];
+  };
+  const end = (y, canceled = false) => {
+    if (!tracking) return;
+    const dy = y - startY;
+    if (!canceled && !dragging && Math.abs(dy) > 6) {
+      dragging = true; currentY = Math.max(0, startT + dy);
+      sheet.classList.add('dragging'); sheet.style.transform = `translateY(${currentY}px)`;
+    }
+    if (dragging) {
+      if (canceled) setDetent(nearestDetent(currentY));
+      else {
+        const h = sheet.getBoundingClientRect().height, targetY = Math.max(0, startT + dy);
+        setDetent(targetY < h * 0.25 ? 'full' : targetY < h * 0.7 ? 'half' : 'peek');
+      }
+    } else if (!canceled && startHandle.matches('.grabber') && Math.abs(dy) < 6) {
+      setDetent({ peek: 'half', half: 'full', full: 'peek' }[sheet.dataset.detent]);
+    }
+    tracking = false; dragging = false; startHandle = null; pointerId = null; touchId = null;
+    sheet.classList.remove('dragging'); sheet.style.transform = '';
+  };
+  const activeTouch = list => Array.from(list).find(t => t.identifier === touchId);
+
+  sheet.addEventListener('pointerdown', e => {
+    if (e.pointerType === 'touch') return;
+    const handle = handleFor(e.target); if (handle) begin(handle, e.clientY, e);
+  });
+  sheet.addEventListener('pointermove', e => {
+    if (e.pointerType !== 'touch' && e.pointerId === pointerId) move(e.clientY);
+  });
+  sheet.addEventListener('pointerup', e => {
+    if (e.pointerType !== 'touch' && e.pointerId === pointerId) end(e.clientY);
+  });
+  sheet.addEventListener('pointercancel', e => {
+    if (e.pointerType !== 'touch' && e.pointerId === pointerId) end(startY, true);
+  });
+  sheet.addEventListener('touchstart', e => {
+    if (e.touches.length !== 1) return;
+    const handle = handleFor(e.target); if (handle) begin(handle, e.touches[0].clientY, null, e.touches[0]);
+  });
+  sheet.addEventListener('touchmove', e => {
+    const touch = activeTouch(e.changedTouches); if (touch) move(touch.clientY, e);
+  }, { passive: false });
+  sheet.addEventListener('touchend', e => {
+    const touch = activeTouch(e.changedTouches); if (touch) end(touch.clientY);
+  });
+  sheet.addEventListener('touchcancel', e => {
+    if (activeTouch(e.changedTouches)) end(startY, true);
+  });
 })();
 
 /* Export / import */

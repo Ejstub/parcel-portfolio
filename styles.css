@@ -77,6 +77,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   .search { width: 390px; right: auto; }
   .popover { right: 64px; }
 }
+@media (max-width: 819px) { .sheet-body > .hdr { touch-action: none; } }
 @media (prefers-reduced-motion: reduce) { .sheet { transition: none; } }
 
 /* Sheet content */
