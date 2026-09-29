@@ -1,5 +1,5 @@
 // Offline app shell. Bump VERSION whenever any cached file changes, or phones keep the old copy.
-const VERSION = 'parcel-v0.1.0';
+const VERSION = 'parcel-v0.1.1';
 const SHELL = ['./', 'index.html', 'styles.css', 'manifest.webmanifest',
   'src/app.js', 'src/finance.js', 'src/areas.js', 'src/store.js', 'src/geo.js',
   'data/areas.json', 'data/boundaries.geojson', 'data/seed-properties.json',
